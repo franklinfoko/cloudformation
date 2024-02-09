@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 Parameters:
   InstanceType:
     Type: String
-    Default: t3.micro
+    Default: t3.small
     Description: Type de l'instance EC2
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
